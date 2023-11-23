@@ -1,27 +1,28 @@
 {
- "packages": {
-  "dir": "",
-  "menu": [
-   [
-    "TOKENS",
-    [
-     "color",
-     "tokens"
+  "packages": {
+    "dir": "",
+    "menu": [
+      [
+        "TOKENS",
+        [
+          "color",
+          "tokens",
+          "test"
+        ]
+      ],
+      [
+        "COMPONENTS",
+        [
+          "button"
+        ]
+      ],
+      [
+        "INFRASTRUCTURE",
+        [
+          "doc-layout",
+          "sd-input"
+        ]
+      ]
     ]
-   ],
-   [
-    "COMPONENTS",
-    [
-     "button"
-    ]
-   ],
-   [
-    "INFRASTRUCTURE",
-    [
-     "doc-layout",
-     "sd-input"
-    ]
-   ]
-  ]
- }
+  }
 }
