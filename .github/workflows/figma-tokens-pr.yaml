@@ -3,8 +3,8 @@ name: Process Figma Tokens PR
 on: pull_request
 
 jobs:
-  run_if: # only if base branch is "figma-tokens"
-    if: ${{ github.head_ref == 'figma-tokens' }}
+  run_if: # only if base branch is "tokens-branch"
+    if: ${{ github.head_ref == 'tokens-branch' }}
     name: Process Figma Tokens
     runs-on: ubuntu-latest
     timeout-minutes: 5
